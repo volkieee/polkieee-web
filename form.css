@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'open sans' , sans-serif;
+}
+body{
+    background-image: url(aesthetic\ wallpaper.jpg);
+    height:100vh;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+.container{
+    background: rgb(180,180,180);
+    background: linear-gradient(90deg, rgba(180,180,180,1) 0%, rgba(70,70,93,1) 29%, rgba(0,212,255,1) 100%);
+    width:20%;
+    height:35%;
+    border-radius: 10px;
+    -webkit-box-shadow: -3px -1px 28px 3px rgba(66, 68, 90, 1);
+    -moz-box-shadow: -3px -1px 28px 3px rgba(66, 68, 90, 1);
+    box-shadow: -3px -1px 28px 3px rgba(66, 68, 90, 1);
+}
+.container h1{
+    color: white;
+    margin-bottom: 30px;
+    border-bottom: 4px solid blue;
+    text-transform:uppercase;
+    position: relative;
+    left:5%;
+    top:5%;
+    width:87%;
+}
+.container form input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid blue;
+    width:80%;
+    padding:15px;
+    font-size: 120%;
+    color: #fff;
+    margin-bottom: 15px;
+    position: relative;
+    left:5%;
+    background: none;
+}
+.container form label{
+    color: rgb(164, 164, 241);
+    position: relative;
+    left:5%;
+    top:5%;
+}
+.a-button{
+    background-color: blue;
+    position: relative;
+    left:15px;
+    height:150%;
+    width:90%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+    color:black;
+    text-decoration: none;
+}
+
+.container-icon{
+    
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.fa-google{
+    position: relative;
+    right:14px;
+    font-size: 30px;
+    color: blue;
+}
+.fa-facebook{
+    font-size: 30px;
+    color: blue;
+    position: relative;
+    left:14px;
+}
+.p-icon{
+    color:blue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
